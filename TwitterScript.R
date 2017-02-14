@@ -37,4 +37,4 @@ tdm <- TermDocumentMatrix(corp)
 
 m = as.matrix(tdm)
 word_freqs = sort(rowSums(m), decreasing = TRUE)
-write.csv(word_freqs, file="/home/admin/TwitterProject1/out.txt")
+write.csv(word_freqs, file="/home/admin/out.txt")
