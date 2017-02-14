@@ -4,5 +4,5 @@ install.packages(c('twitteR','tm','SnowballC','stringr','wordcloud'))
 
 # Use the Add packages function from shiny-dev
 # addPackages <- function(pkgs) {
-#  install.packages(pkgs, '/usr/lib64/R/library')
+#  install.packages(pkgs, '/usr/lib64/R/library', dependencies=TRUE)
 # }
